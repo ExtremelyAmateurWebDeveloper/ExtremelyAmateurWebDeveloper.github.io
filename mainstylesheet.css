@@ -1,0 +1,101 @@
+﻿body {
+    background-image: url(./media/skulls.gif);
+    background-repeat: repeat;
+    background-size: 100% auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+p {
+    color: whitesmoke;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Nosifer', cursive;
+    -webkit-text-stroke: thick;
+    -webkit-text-stroke-color: darkred;
+    font-size: 48px;
+
+}
+
+h2 {
+    color: whitesmoke;
+    font-family: 'Courier Prime', monospace;
+    font-size: 32px;
+
+}
+
+h3 {
+    color: whitesmoke;
+    font-family: 'Courier Prime', monospace;
+
+}
+
+text {
+
+
+}
+
+a {
+    color: firebrick;
+
+}
+table{
+
+    text-align: center;
+}
+td{
+
+    text-align: center;
+}
+
+.Left
+{
+    text-align: center;
+
+}
+
+.Header img {
+
+    display: block;
+    margin-left: 20px;
+    margin-right: revert;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+.mainpagetext{
+
+    text-align: center;
+}
+
+#buttons table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.music table{
+
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 96px;
+}
+.albumtop img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.albumtop{
+    text-align: center;
+}
+
+.download img{
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
