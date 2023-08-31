@@ -9,13 +9,14 @@
 p {
     color: whitesmoke;
     font-family: 'IBM Plex Mono', monospace;
+    font-size: 1e
 
 }
 
 h1 {
     color: whitesmoke;
     font-family: 'Nosifer', cursive;
-    -webkit-text-stroke: 0.5em;
+    -webkit-text-stroke: 0.1em;
     -webkit-text-stroke-color: darkred;
     font-size: 2em;
 
@@ -24,7 +25,7 @@ h1 {
 h2 {
     color: whitesmoke;
     font-family: 'Courier Prime', monospace;
-    font-size: 1em;
+    font-size: 1.5em;
 
 }
 
@@ -64,8 +65,8 @@ td{
     margin-left: 0.5em;
     margin-right: revert;
     margin-top: 0.5em;
-    width: 15em;
-    height: 15em;
+    width: 5em;
+    height: 5em;
 }
 .mainpagetext{
 
