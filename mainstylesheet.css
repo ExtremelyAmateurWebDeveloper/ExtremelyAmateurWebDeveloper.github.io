@@ -15,16 +15,16 @@ p {
 h1 {
     color: whitesmoke;
     font-family: 'Nosifer', cursive;
-    -webkit-text-stroke: thick;
+    -webkit-text-stroke: 2em;
     -webkit-text-stroke-color: darkred;
-    font-size: 48px;
+    font-size: 48em;
 
 }
 
 h2 {
     color: whitesmoke;
     font-family: 'Courier Prime', monospace;
-    font-size: 32px;
+    font-size: 32em;
 
 }
 
@@ -61,11 +61,11 @@ td{
 .Header img {
 
     display: block;
-    margin-left: 20px;
+    margin-left: 20em;
     margin-right: revert;
-    margin-top: 20px;
-    width: 150px;
-    height: 150px;
+    margin-top: 20em;
+    width: 150em;
+    height: 150em;
 }
 .mainpagetext{
 
@@ -81,7 +81,7 @@ td{
 
     margin-left: auto;
     margin-right: auto;
-    font-size: 96px;
+    font-size: 96em;
 }
 .albumtop img{
     margin-left: auto;
