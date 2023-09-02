@@ -9,7 +9,7 @@
 p {
     color: whitesmoke;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 1e
+    font-size: 1.5em;
 
 }
 
@@ -18,21 +18,21 @@ h1 {
     font-family: 'Nosifer', cursive;
     -webkit-text-stroke: 0.1em;
     -webkit-text-stroke-color: darkred;
-    font-size: 2em;
+    font-size: 3em;
 
 }
 
 h2 {
     color: whitesmoke;
     font-family: 'Courier Prime', monospace;
-    font-size: 1.5em;
+    font-size: 2em;
 
 }
 
 h3 {
     color: whitesmoke;
     font-family: 'Courier Prime', monospace;
-
+    font-size: 1.5em;
 }
 
 text {
@@ -65,8 +65,8 @@ td{
     margin-left: 0.5em;
     margin-right: revert;
     margin-top: 0.5em;
-    width: 5em;
-    height: 5em;
+    width: 7.5em;
+    height: 7.5em;
 }
 .mainpagetext{
 
@@ -99,4 +99,10 @@ td{
     margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+video{
+    width: 20em;
+    height: 20em;
+
 }
