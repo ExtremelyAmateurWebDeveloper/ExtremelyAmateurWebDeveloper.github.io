@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&family=IBM+Plex+Mono&family=Nosifer&display=swap" rel="stylesheet">
+    <script src="./MusicDisplay.js"></script>
 </head>
 <body>
     <div class="Header">
@@ -19,10 +20,15 @@
         <table>
 
             <tr>
-                <td><a href="./KysVol1.html"><h2>THRASHICH - KYS Vol.1</h2></a></td>
+                <td><a onclick="currentpage = 0, console.log(currentpage), localStorage.setItem('pagenum', currentpage)" href="./song.html"><h2 id="slot0"></h2></a></td>
+            </tr>
+            <tr>
+                <td><a onclick="currentpage = 1, console.log(currentpage), localStorage.setItem('pagenum', currentpage)" href="./song.html"><h2 id="slot1"></h2></a></td>
             </tr>
 
         </table>
+        <script>document.getElementById("slot0").innerHTML = song[0].artist + " - " + song[0].name</script>
+        <script>document.getElementById("slot1").innerHTML = song[1].artist + " - " + song[1].name</script>
     </div>
 </body>
 </html>
