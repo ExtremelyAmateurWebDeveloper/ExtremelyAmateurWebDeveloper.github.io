@@ -2,7 +2,7 @@
 
 console.log('Test')
 let song = [{
-    name: 'Kys Vol.1 (currently unavailable',
+    name: 'Kys Vol.1 (currently unavailable)',
     artist: 'Thrashich',
     desc: 'disgusting',
     price: 'Free',
