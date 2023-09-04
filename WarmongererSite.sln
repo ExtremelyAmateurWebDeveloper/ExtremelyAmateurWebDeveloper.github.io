@@ -8,7 +8,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		events.html = events.html
 		index.html = index.html
 		Info.html = Info.html
-		mainpage.html = mainpage.html
 		mainstylesheet.css = mainstylesheet.css
 		music.html = music.html
 		MusicDisplay.js = MusicDisplay.js
