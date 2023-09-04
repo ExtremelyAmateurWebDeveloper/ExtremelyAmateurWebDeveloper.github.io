@@ -17,16 +17,12 @@
     <br />
     <br />
     <div class="music">
-        <table>
 
-            <tr>
-                <td><a onclick="currentpage = 0, console.log(currentpage), localStorage.setItem('pagenum', currentpage)" href="./song.html"><h2 id="slot0"></h2></a></td>
-            </tr>
-            <tr>
-                <td><a onclick="currentpage = 1, console.log(currentpage), localStorage.setItem('pagenum', currentpage)" href="./song.html"><h2 id="slot1"></h2></a></td>
-            </tr>
+            <ul>
+                <li><a onclick="currentpage = 0, console.log(currentpage), localStorage.setItem('pagenum', currentpage)" href="./song.html"><h2 id="slot0"></h2></a></li>
+                <li><a onclick="currentpage = 1, console.log(currentpage), localStorage.setItem('pagenum', currentpage)" href="./song.html"><h2 id="slot1"></h2></a></li>
+            </ul>
 
-        </table>
         <script>document.getElementById("slot0").innerHTML = song[0].artist + " - " + song[0].name</script>
         <script>document.getElementById("slot1").innerHTML = song[1].artist + " - " + song[1].name</script>
     </div>
