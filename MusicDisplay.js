@@ -2,12 +2,12 @@
 
 console.log('Test')
 let song = [{
-    name: 'Kys Vol.1',
+    name: 'Kys Vol.1 (currently unavailable',
     artist: 'Thrashich',
     desc: 'disgusting',
     price: 'Free',
     image: './media/AlbumCovers/KysVol1.png',
-    link: 'https://drive.google.com/uc?id=1ssgZwXqiFs885RFlvJ4fBU78aS9ZJNdC&export=download',
+    link: '',
 },
 {
     name: 'REMIXES EP. 1',
