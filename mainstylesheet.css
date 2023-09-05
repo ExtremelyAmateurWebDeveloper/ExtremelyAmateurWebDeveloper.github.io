@@ -9,7 +9,7 @@
 p {
     color: whitesmoke;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 1.5em;
+    font-size: 1em;
 
 }
 
@@ -18,21 +18,21 @@ h1 {
     font-family: 'Nosifer', cursive;
     -webkit-text-stroke: 0.1em;
     -webkit-text-stroke-color: darkred;
-    font-size: 3em;
+    font-size: 2em;
 
 }
 
 h2 {
     color: whitesmoke;
     font-family: 'Courier Prime', monospace;
-    font-size: 2em;
+    font-size: 1.5em;
 
 }
 
 h3 {
     color: whitesmoke;
     font-family: 'Courier Prime', monospace;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 text {
@@ -102,8 +102,8 @@ td{
 }
 
 video{
-    width: 20em;
-    height: 20em;
+    width: 12.5em;
+    height: 12.5em;
 
 }
 
@@ -116,7 +116,7 @@ video{
 
 .Events img{
 
-    width: 30em;
-    height: 40em;
+    width: 20em;
+    height: 27em;
 
 }
