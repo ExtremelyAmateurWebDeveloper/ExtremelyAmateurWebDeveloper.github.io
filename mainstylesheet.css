@@ -9,7 +9,7 @@
 p {
     color: whitesmoke;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 1em;
+    font-size: 2vh;
 
 }
 
@@ -18,21 +18,21 @@ h1 {
     font-family: 'Nosifer', cursive;
     -webkit-text-stroke: 0.1em;
     -webkit-text-stroke-color: darkred;
-    font-size: 2em;
+    font-size: 5vh;
 
 }
 
 h2 {
     color: whitesmoke;
     font-family: 'Courier Prime', monospace;
-    font-size: 1.5em;
+    font-size: 3vh;
 
 }
 
 h3 {
     color: whitesmoke;
     font-family: 'Courier Prime', monospace;
-    font-size: 1em;
+    font-size: 2.5vh;
 }
 
 text {
@@ -62,11 +62,11 @@ td{
 .Header img {
 
     display: block;
-    margin-left: 0.5em;
+    margin-left: 1vh;
     margin-right: revert;
-    margin-top: 0.5em;
-    width: 7.5em;
-    height: 7.5em;
+    margin-top: 1vh;
+    width: 10vh;
+    height: 10vh;
 }
 .mainpagetext{
 
@@ -82,7 +82,7 @@ td{
 
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.5em;
+    font-size: 5vh;
 }
 .albumtop img{
     margin-left: auto;
@@ -102,8 +102,8 @@ td{
 }
 
 video{
-    width: 12.5em;
-    height: 12.5em;
+    width: 30vh;
+    height: 30vh;
 
 }
 
@@ -116,7 +116,13 @@ video{
 
 .Events img{
 
-    width: 20em;
-    height: 27em;
+    width: 40vh;
+    height: 54vh;
 
+}
+
+#footerlogo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
