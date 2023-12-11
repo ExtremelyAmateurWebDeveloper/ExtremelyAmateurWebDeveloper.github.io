@@ -18,13 +18,15 @@
     <br />
     <div class="music">
 
-            <ul>
-                <li><a onclick="currentpage = 0, console.log(currentpage), localStorage.setItem('pagenum', currentpage)" href="./song.html"><h2 id="slot0"></h2></a></li>
-                <li><a onclick="currentpage = 1, console.log(currentpage), localStorage.setItem('pagenum', currentpage)" href="./song.html"><h2 id="slot1"></h2></a></li>
-            </ul>
+        <ul>
+            <li><a onclick="currentpage = 0, console.log(currentpage), localStorage.setItem('pagenum', currentpage)" href="./song.html"><h2 id="slot0"></h2></a></li>
+            <li><a onclick="currentpage = 1, console.log(currentpage), localStorage.setItem('pagenum', currentpage)" href="./song.html"><h2 id="slot1"></h2></a></li>
+            <li><a onclick="currentpage = 2, console.log(currentpage), localStorage.setItem('pagenum', currentpage)" href="./song.html"><h2 id="slot2"></h2></a></li>
+        </ul>
 
         <script>document.getElementById("slot0").innerHTML = song[0].artist + " - " + song[0].name</script>
         <script>document.getElementById("slot1").innerHTML = song[1].artist + " - " + song[1].name</script>
+        <script>document.getElementById("slot2").innerHTML = song[2].artist + " - " + song[2].name</script>
     </div>
 </body>
 </html>

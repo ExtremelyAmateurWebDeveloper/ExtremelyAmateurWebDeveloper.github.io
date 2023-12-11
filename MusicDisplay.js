@@ -18,12 +18,12 @@ let song = [{
     link: 'https://drive.google.com/uc?id=1ssgZwXqiFs885RFlvJ4fBU78aS9ZJNdC&export=download'
 },
 {
-    name: undefined,
-    artist: undefined,
-    desc: undefined,
-    price: undefined,
+    name: 'DIRTMONGERING EP',
+    artist: 'Thrashich',
+    desc: 'noiser',
+    price: 'Free',
     image: undefined,
-    link: undefined
+    link: 'https://drive.google.com/uc?id=1vib4ZshjiNkJIb49WVo7uESR7tUVtCOz&export=download'
 },
 {
     name: undefined,
@@ -47,3 +47,5 @@ let test = 'test';
 let currentpage = 0;
 
 currentpage = localStorage.getItem('pagenum')
+
+
